@@ -1,0 +1,27 @@
+.contact {
+    height: 100%;
+    padding-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, rgba($primary-color, 0.9),rgba($primary-color, 0.3)), url(../assets/h.jpg) center top;
+    background-size: cover;
+    background-position: top;
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .social-icons {
+        position: initial;
+        margin-top: 2rem;
+    }
+}
